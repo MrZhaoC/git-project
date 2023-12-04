@@ -3,8 +3,9 @@ def get_info():
 
 
 def print_info():
-    print('bbbb')
+    print('head of get_info')
+    get_info()
 
 
 if __name__ == '__main__':
-    get_info()
+    print_info()
